@@ -5,34 +5,42 @@
 }
 
 ul {
+  align-content: space-between;
   list-style-type: none;
-  background-color: rgb(80, 80, 165);
-  height: 100px;
-  padding: 30px;
 }
+
 li {
   display: inline;
-  font-style: normal;
-  margin: 100px;
+  align-items: center;
+  margin: 30px;
+  padding: 70px;
+  background-color: rgb(89, 131, 221);
 }
+
 a {
+  align-items: center;
   color: rgb(16, 35, 51);
 }
 
-img {
-  width: 50px;
-  height: 35px;
-  margin: 10;
-}
-
 h1 {
+  display: flex;
+  align-items: center;
   font-size: xx-large;
   font-family: "Times New Roman", Times, serif;
-  text-align: center;
 }
 
-#div-h1 {
+#logo {
+  display: flex;
+  width: 50px;
+  height: 30px;
   margin: 20px;
+}
+
+.box-img {
+  width: 50px;
+  height: 70px;
+  padding: 40px;
+  margin: 10;
 }
 
 .box {
@@ -45,6 +53,21 @@ h1 {
   padding: 10px;
   text-align: center;
 }
+
 body {
-  background-image: url(images/Downtown-Cairo-Zamalek-the-Nile-river.jpg);
+  background-image: url(images/Egypt1.webp);
+}
+
+nav {
+  background-color: rgb(20, 2, 98);
+  display: flex;
+
+  height: 100px;
+  padding: 10px;
+}
+
+#div-logo {
+  width: fit-content;
+  display: flex;
+  align-items: center;
 }
